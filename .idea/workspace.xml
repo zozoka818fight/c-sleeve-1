@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5df2ce89-6a6a-4cdf-a636-7fa8d4d577a2" name="Default Changelist" comment="zyt 20200721">
+      <change afterPath="$PROJECT_DIR$/.idea/c-sleeve.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/category-grid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/category-grid/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/category-grid/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/category-grid/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="95c3b853-bc71-4394-8df8-8fbe81676150" />
+  </component>
+  <component name="ProjectId" id="1eGau4Ikv24Ozo9ZwS1IHwd3qEC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5df2ce89-6a6a-4cdf-a636-7fa8d4d577a2" name="Default Changelist" comment="" />
+      <created>1593950602751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593950602751</updated>
+      <workItem from="1593950605980" duration="112000" />
+      <workItem from="1593950737606" duration="4434000" />
+      <workItem from="1594038779594" duration="1142000" />
+      <workItem from="1594649102207" duration="1454000" />
+      <workItem from="1595338112275" duration="10000" />
+      <workItem from="1595339384279" duration="9727000" />
+      <workItem from="1598335702374" duration="1935000" />
+      <workItem from="1598516706333" duration="15211000" />
+      <workItem from="1598607720412" duration="599000" />
+    </task>
+    <task id="LOCAL-00001" summary="zyt 20200721">
+      <created>1595344315673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595344315674</updated>
+    </task>
+    <task id="LOCAL-00002" summary="zyt 20200721">
+      <created>1598520614541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598520614542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.wxss" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.wxml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1" />
+    <MESSAGE value="zyt 20200721" />
+    <option name="LAST_COMMIT_MESSAGE" value="zyt 20200721" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1598585475604">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1598585475604" />
+    <state x="842" y="381" key="#Notifications" timestamp="1598524724879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="381" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1598524724879" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594649830237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594649830237" />
+    <state x="586" y="296" key="EditFileWatcherDialog" timestamp="1593951115653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="296" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593951115653" />
+    <state x="803" y="352" key="FileChooserDialogImpl" timestamp="1598521284941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="352" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598521284941" />
+    <state x="832" y="417" width="256" height="298" key="Github.ShareDialog" timestamp="1598522465279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="417" width="256" height="298" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598522465279" />
+    <state x="524" y="242" key="SettingsEditor" timestamp="1598585219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="524" y="242" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598585219059" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598520993696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598520993696" />
+    <state x="753" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594649714443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594649714443" />
+    <state x="782" y="387" width="964" height="712" key="dock-window-1" timestamp="1593954585217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="782" y="387" width="964" height="712" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1593954585217" />
+    <state x="782" y="387" width="964" height="712" key="dock-window-2" timestamp="1593954585217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="782" y="387" width="964" height="712" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1593954585217" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1594038881610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594038881610" />
+    <state x="1542" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1598585277469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1542" y="260" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598585277469" />
+  </component>
+</project>

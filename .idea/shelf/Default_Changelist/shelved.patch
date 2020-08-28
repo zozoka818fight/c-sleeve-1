@@ -1,0 +1,260 @@
+Index: utils/util.js
+===================================================================
+--- utils/util.js	(revision 8ba2924e7549a147c26ba67b3dad693a6f9db18c)
++++ utils/util.js	(revision 8ba2924e7549a147c26ba67b3dad693a6f9db18c)
+@@ -1,19 +0,0 @@
+-const formatTime = date => {
+-  const year = date.getFullYear()
+-  const month = date.getMonth() + 1
+-  const day = date.getDate()
+-  const hour = date.getHours()
+-  const minute = date.getMinutes()
+-  const second = date.getSeconds()
+-
+-  return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
+-}
+-
+-const formatNumber = n => {
+-  n = n.toString()
+-  return n[1] ? n : '0' + n
+-}
+-
+-module.exports = {
+-  formatTime: formatTime
+-}
+Index: .idea/dictionaries/Administrator.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/dictionaries/Administrator.xml	(date 1593952022618)
++++ .idea/dictionaries/Administrator.xml	(date 1593952022618)
+@@ -0,0 +1,7 @@
++<component name="ProjectDictionaryState">
++  <dictionary name="Administrator">
++    <words>
++      <w>appkey</w>
++    </words>
++  </dictionary>
++</component>
+\ No newline at end of file
+Index: pages/home/home.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// pages/home/home.js\r\nimport {config} from \"../../config\";\r\nPage({\r\n  /**\r\n   * 页面的初始数据\r\n   */\r\n  data: {\r\n\r\n  },\r\n\r\n  /**\r\n   * 生命周期函数--监听页面加载\r\n   */\r\n  onLoad: function (options) {\r\n    wx.request({\r\n      url：`${config.apiBaseUrl}theme/by/names`,\r\n      // url: 'http://se.7yue.pro/v1/theme/by/names',\r\n      method:'GET',\r\n      data:{\r\n        names:'t-1'\r\n      },\r\n      header:{\r\n        appkey:'cEkI8lYiXyBAExBZ'\r\n      }\r\n    })\r\n  },\r\n\r\n  /**\r\n   * 生命周期函数--监听页面初次渲染完成\r\n   */\r\n  onReady: function () {\r\n\r\n  },\r\n\r\n  /**\r\n   * 生命周期函数--监听页面显示\r\n   */\r\n  onShow: function () {\r\n\r\n  },\r\n\r\n  /**\r\n   * 生命周期函数--监听页面隐藏\r\n   */\r\n  onHide: function () {\r\n\r\n  },\r\n\r\n  /**\r\n   * 生命周期函数--监听页面卸载\r\n   */\r\n  onUnload: function () {\r\n\r\n  },\r\n\r\n  /**\r\n   * 页面相关事件处理函数--监听用户下拉动作\r\n   */\r\n  onPullDownRefresh: function () {\r\n\r\n  },\r\n\r\n  /**\r\n   * 页面上拉触底事件的处理函数\r\n   */\r\n  onReachBottom: function () {\r\n\r\n  },\r\n\r\n  /**\r\n   * 用户点击右上角分享\r\n   */\r\n  onShareAppMessage: function () {\r\n\r\n  }\r\n})
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pages/home/home.js	(revision 8ba2924e7549a147c26ba67b3dad693a6f9db18c)
++++ pages/home/home.js	(date 1593954223849)
+@@ -1,56 +1,25 @@
+ // pages/home/home.js
+-import {config} from "../../config";
++
++import {config} from "../../config/config";
++import {Theme} from "../../model/theme";
++
+ Page({
+   /**
+    * 页面的初始数据
+    */
+   data: {
+-
++      topTheme:null,
+   },
+ 
+   /**
+    * 生命周期函数--监听页面加载
+    */
+   onLoad: function (options) {
+-    wx.request({
+-      url：`${config.apiBaseUrl}theme/by/names`,
+-      // url: 'http://se.7yue.pro/v1/theme/by/names',
+-      method:'GET',
+-      data:{
+-        names:'t-1'
+-      },
+-      header:{
+-        appkey:'cEkI8lYiXyBAExBZ'
+-      }
+-    })
+-  },
+-
+-  /**
+-   * 生命周期函数--监听页面初次渲染完成
+-   */
+-  onReady: function () {
+-
+-  },
+-
+-  /**
+-   * 生命周期函数--监听页面显示
+-   */
+-  onShow: function () {
+-
+-  },
+-
+-  /**
+-   * 生命周期函数--监听页面隐藏
+-   */
+-  onHide: function () {
+-
+-  },
+-
+-  /**
+-   * 生命周期函数--监听页面卸载
+-   */
+-  onUnload: function () {
+-
++      Theme.getHomeLocationA(data=>{
++        this.setData({
++          topTheme:data[0]
++        })
++      })
+   },
+ 
+   /**
+Index: pages/home/home.wxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><view>\r\n  <image class=\"top-theme\" src=\"\"></image>\r\n</view>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pages/home/home.wxml	(revision 8ba2924e7549a147c26ba67b3dad693a6f9db18c)
++++ pages/home/home.wxml	(date 1593952598786)
+@@ -1,3 +1,3 @@
+ <view>
+-  <image class="top-theme" src=""></image>
++  <image class="top-theme" src="{{topTheme.entrance_img}}"></image>
+ </view>
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1594649119788)
++++ .idea/.gitignore	(date 1594649119788)
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: config/config.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>const config={\r\n  appkey:'cEkI8lYiXyBAExBZ',\r\n  apiBaseUrl:'http://se.7yue.pro/v1/'\r\n}\r\n\r\nexport{\r\n  config\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- config/config.js	(revision 8ba2924e7549a147c26ba67b3dad693a6f9db18c)
++++ config/config.js	(date 1593952547398)
+@@ -2,7 +2,6 @@
+   appkey:'cEkI8lYiXyBAExBZ',
+   apiBaseUrl:'http://se.7yue.pro/v1/'
+ }
+-
+ export{
+   config
+ }
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/inspectionProfiles/Project_Default.xml	(date 1593950718769)
++++ .idea/inspectionProfiles/Project_Default.xml	(date 1593950718769)
+@@ -0,0 +1,8 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="WXMLInvalidImport" enabled="true" level="ERROR" enabled_by_default="true" />
++    <inspection_tool class="WXSSInvalidImport" enabled="true" level="ERROR" enabled_by_default="true" />
++    <inspection_tool class="WxmlWxsModuleImport" enabled="true" level="ERROR" enabled_by_default="true" />
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/jsLibraryMappings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/jsLibraryMappings.xml	(date 1593950718906)
++++ .idea/jsLibraryMappings.xml	(date 1593950718906)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavaScriptLibraryMappings">
++    <excludedPredefinedLibrary name="wechat-mini-program-api" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/c-sleeve.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/c-sleeve.iml	(date 1593950611602)
++++ .idea/c-sleeve.iml	(date 1593950611602)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1593950611697)
++++ .idea/vcs.xml	(date 1593950611697)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1593950611839)
++++ .idea/misc.xml	(date 1593950611839)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavaScriptSettings">
++    <option name="languageLevel" value="ES6" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1593950611922)
++++ .idea/modules.xml	(date 1593950611922)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/c-sleeve.iml" filepath="$PROJECT_DIR$/.idea/c-sleeve.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file

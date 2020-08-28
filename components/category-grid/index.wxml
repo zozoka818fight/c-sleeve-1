@@ -1,0 +1,12 @@
+<view class="container">
+    <l-grid l-class="inner_container">
+        <block wx:for="{{grid}}">
+            <l-grid-item slot="{{index}}" key="{{index}}" >
+                <view class="grid-item">
+                    <image src="{{item.img}}" class="image"></image>
+                    <text class="text">{{item.title}}</text>
+                </view>
+            </l-grid-item>
+        </block>
+    </l-grid>
+</view>
