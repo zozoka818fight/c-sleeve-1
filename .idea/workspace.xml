@@ -10,32 +10,42 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5df2ce89-6a6a-4cdf-a636-7fa8d4d577a2" name="Default Changelist" comment="zyt 20200721">
-      <change afterPath="$PROJECT_DIR$/.idea/c-sleeve.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/category-grid/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/category-grid/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/category-grid/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/category-grid/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
+    <list default="true" id="5df2ce89-6a6a-4cdf-a636-7fa8d4d577a2" name="Default Changelist" comment="zyt 20200828">
+      <change afterPath="$PROJECT_DIR$/components/hot-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hot-list/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hot-list/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hot-list/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/home/wntj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/activity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/spu-paging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/paging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxss/sleeve.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/category-grid/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/category-grid/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +65,12 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="95c3b853-bc71-4394-8df8-8fbe81676150" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1eGau4Ikv24Ozo9ZwS1IHwd3qEC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,7 +88,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WeChatWorkspace\c-sleeve\imgs\home" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -92,7 +113,8 @@
       <workItem from="1595339384279" duration="9727000" />
       <workItem from="1598335702374" duration="1935000" />
       <workItem from="1598516706333" duration="15211000" />
-      <workItem from="1598607720412" duration="599000" />
+      <workItem from="1598607720412" duration="980000" />
+      <workItem from="1598836684748" duration="45136000" />
     </task>
     <task id="LOCAL-00001" summary="zyt 20200721">
       <created>1595344315673</created>
@@ -108,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598520614542</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zyt 20200828">
+      <created>1598609916425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598609916425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,13 +163,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
     <MESSAGE value="zyt 20200721" />
-    <option name="LAST_COMMIT_MESSAGE" value="zyt 20200721" />
+    <MESSAGE value="zyt 20200828" />
+    <option name="LAST_COMMIT_MESSAGE" value="zyt 20200828" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1598585475604">
+    <state x="586" y="198" key="#Inspections" timestamp="1598928107138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1598585475604" />
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1598928107138" />
     <state x="842" y="381" key="#Notifications" timestamp="1598524724879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,14 +187,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="803" y="352" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598521284941" />
-    <state x="832" y="417" width="256" height="298" key="Github.ShareDialog" timestamp="1598522465279">
+    <state x="832" y="417" width="256" height="298" key="Github.ShareDialog" timestamp="1598609947808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="832" y="417" width="256" height="298" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598522465279" />
-    <state x="524" y="242" key="SettingsEditor" timestamp="1598585219059">
+    <state x="832" y="417" width="256" height="298" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598609947808" />
+    <state x="780" y="239" key="RollbackChangesDialog" timestamp="1599200810757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="524" y="242" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598585219059" />
+    <state x="780" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599200810757" />
+    <state x="524" y="242" key="SettingsEditor" timestamp="1599028993652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="524" y="242" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599028993652" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598520993696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -185,9 +219,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594038881610" />
-    <state x="1542" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1598585277469">
+    <state x="1542" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1599202408187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1542" y="260" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598585277469" />
+    <state x="1542" y="260" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599202408187" />
   </component>
 </project>

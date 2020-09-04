@@ -1,5 +1,5 @@
 /* components/category-grid/index.wxss */
-
+@import "../../wxss/sleeve.wxss";
 .container{
     height: 320rpx;
     width: 100%;
@@ -7,6 +7,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
 }
 .inner_container{
     height: 300rpx;
